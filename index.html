@@ -1,0 +1,331 @@
+# Educational Geography Game Generator Prompt
+
+## Role
+
+You are a senior game developer, UI/UX designer, educational psychologist, animator, and front-end engineer specializing in children's learning games.
+
+## Goal
+
+Generate a complete production-ready educational web game that can be hosted directly on GitHub Pages.
+
+The game should help an 8-year-old child learn and remember all Indian states and union territories through visual clues, animations, storytelling, and progressive discovery.
+
+## Technical Requirements
+
+Generate complete source code including:
+
+* HTML
+* CSS
+* JavaScript
+* SVG assets where needed
+* JSON data files
+* README.md
+* Instructions for GitHub Pages deployment
+
+No backend required.
+
+The game must run entirely in the browser.
+
+Use:
+
+* HTML5
+* CSS3
+* Vanilla JavaScript (preferred)
+* Optional lightweight libraries only if absolutely necessary
+
+The code should be modular, clean, commented, and easy to extend.
+
+---
+
+# Game Concept
+
+## Game Name
+
+"Discover India"
+
+## Core Gameplay
+
+The player is shown a highlighted outline of a state on an India map.
+
+The player must identify:
+
+1. State Name
+2. Capital City
+
+The game should reveal clues gradually.
+
+Each clue should be visual and animated rather than plain text whenever possible.
+
+---
+
+# Learning Flow
+
+Each round consists of multiple stages.
+
+### Stage 1 - Shape Challenge
+
+Show:
+
+* India map
+* Target state highlighted
+
+No text clue.
+
+Player guesses.
+
+---
+
+### Stage 2 - Animated Landmark Clue
+
+Show a short animation or GIF-like SVG animation representing something famous about the state.
+
+Examples:
+
+* Odisha → Konark Sun Temple wheel rotating
+* Bihar → Nalanda University animation
+* Rajasthan → Camel walking animation
+* Kerala → Houseboat moving on water
+* Punjab → Wheat fields swaying
+* Gujarat → Gir Lion animation
+* Tamil Nadu → Brihadeeswarar Temple animation
+
+The clue should teach cultural and historical significance.
+
+---
+
+### Stage 3 - Nature or Wildlife Clue
+
+Show:
+
+* Animated animal
+* Forest
+* River
+* Mountain
+* Beach
+
+Examples:
+
+* Assam → Rhino
+* Gujarat → Asiatic Lion
+* Kerala → Backwaters
+* Uttarakhand → Himalayas
+
+---
+
+### Stage 4 - Food Clue
+
+Show animated local cuisine.
+
+Examples:
+
+* Telangana → Hyderabadi Biryani
+* Gujarat → Dhokla
+* Punjab → Makki Roti
+
+Food should appear as illustrations with simple animations.
+
+---
+
+### Stage 5 - Festival or Culture Clue
+
+Show:
+
+* Dance
+* Festival
+* Traditional dress
+* Music
+
+Examples:
+
+* Odisha → Odissi dance
+* Assam → Bihu
+* Punjab → Bhangra
+* Tamil Nadu → Pongal
+
+Use sprite animations or SVG animations.
+
+---
+
+# Child-Friendly Design
+
+Target age:
+
+8–10 years
+
+Requirements:
+
+* Bright colors
+* Large buttons
+* Cartoon style
+* Friendly mascot guide
+
+Include:
+
+Animated guide character called:
+
+"Chotu Explorer"
+
+The mascot should:
+
+* Celebrate correct answers
+* Give hints
+* Encourage learning
+
+---
+
+# Scoring System
+
+Correct on first clue:
+100 points
+
+Second clue:
+80 points
+
+Third clue:
+60 points
+
+Fourth clue:
+40 points
+
+Fifth clue:
+20 points
+
+Bonus:
+
+* Streak multiplier
+* Speed bonus
+* Perfect round badge
+
+---
+
+# Learning Reinforcement
+
+After every correct answer show:
+
+## Learn About This State
+
+Display:
+
+* Capital
+* Famous monument
+* State animal
+* State bird
+* Main language
+* Fun fact
+
+Include images and animations.
+
+---
+
+# Memory Mode
+
+Generate a separate mode called:
+
+"Revision Challenge"
+
+Features:
+
+* Flashcards
+* Timed quiz
+* Random clues
+* Match state to capital
+* Match state to landmark
+
+---
+
+# Progress Tracking
+
+Store progress in browser localStorage.
+
+Track:
+
+* States mastered
+* Accuracy
+* Fastest answers
+* Streaks
+* Total score
+
+Create a dashboard.
+
+---
+
+# Map Requirements
+
+Use an SVG India map.
+
+Features:
+
+* Zoomable
+* Responsive
+* Highlight states
+* Mobile friendly
+
+---
+
+# Animations
+
+Do not use static clues where animations are possible.
+
+Prefer:
+
+* SVG animations
+* CSS animations
+* Lottie animations
+
+Every state should have at least:
+
+* 1 landmark animation
+* 1 cultural animation
+* 1 nature animation
+
+---
+
+# Content Database
+
+Create a JSON file containing data for all:
+
+* 28 states
+* 8 union territories
+
+For every state include:
+
+{
+"name":"",
+"capital":"",
+"landmark":"",
+"landmarkAnimation":"",
+"festival":"",
+"festivalAnimation":"",
+"food":"",
+"foodAnimation":"",
+"animal":"",
+"animalAnimation":"",
+"funFact":""
+}
+
+Populate with real educational content.
+
+---
+
+# Accessibility
+
+Include:
+
+* Keyboard navigation
+* Voice narration button
+* High contrast mode
+* Responsive design
+
+---
+
+# Deployment
+
+Generate:
+
+* Full project structure
+* Folder hierarchy
+* All source code
+* Sample assets
+* GitHub Pages deployment instructions
+
+The final output must be a complete working project that can be downloaded, uploaded to GitHub, and immediately hosted using GitHub Pages.
